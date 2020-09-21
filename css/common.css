@@ -145,21 +145,33 @@ img {
 /* ====== FOOTER ====== */
 
 .footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+
   background-color: #2f303a;
 }
 
 /* Footer-logo */
 
 .logo-footer {
+  display: inline-block;
+
   color: var(--secondary-text-color);
+
+  margin-bottom: 20px;
+  margin-right: 0px;
 }
 
 /* Footer-nav */
 .footer-nav-item {
   font-weight: 400;
-  font-size: 14px;
   line-height: 1.71;
 }
+
+.footer-nav-item:not(last-child) {
+  margin-bottom: 9px;
+}
+
 .map {
   color: var(--secondary-text-color);
 }
